@@ -37,16 +37,14 @@ print(myDict)
 # 1
 favlan={}
 a=input("enter your fav lan. ronaldo\n")
-# b=input("enter your fav lan. wright\n")
-# c=input("enter your fav lan. werner\n")
-# d=input("enter your fav lan. foden\n")
-# favlan['ronaldo']=a
-# favlan['wright']=b
-# favlan['ronaldo']=c
-# favlan['foden']=d
+b=input("enter your fav lan. wright\n")
+c=input("enter your fav lan. werner\n")
+d=input("enter your fav lan. foden\n")
+favlan['ronaldo']=a
+favlan['wright']=b
+favlan['ronaldo']=c
+favlan['foden']=d
 
-favlan.update({a:a})
-favlan.update({"ghb":"hello"})
 
 
 print(favlan)
