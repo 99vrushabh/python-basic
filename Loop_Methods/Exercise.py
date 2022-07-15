@@ -129,3 +129,9 @@ for i in range(0,6):
         if j>=i:
             print("*",end='')
     print(" ")
+sampleDict = dict([
+    ('first', 1),
+    ('second', 2),
+    ('third', 3)
+])
+print(sampleDict)
