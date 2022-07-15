@@ -12,7 +12,7 @@ while i < 5:
 
 # list in while loop
 player = ["kohli", "dhoni", "ronaldo", "werner"]
-i = 0
+i = 0   
 while i < len(player):
     print(player[i])
     i = i+1
