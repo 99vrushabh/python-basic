@@ -22,12 +22,17 @@ for marks, value in dict.items():
         print(marks ,"\ni am sorry! you are failed in this year")
 
 # String in FOR LOOP    
-a="hello world"
-a=a[-1: : -1]
-b=len(a)
-print(b)
 
-for loop in range(b ):
-    print(a[loop])
+string=input("enter your marks")
+for value in string:
+    print("\nyou get the",value, "marks")
+    if value > 500:
+        print("\ncongratulation!\nyou have achived a+ grade")
+    elif value > 400:
+        print("\ncongratulation!\nyou have achived b+ grade")
+    elif value < 200 and value > 100:
+        print("\ncongratulation!\nyou are passed with c+ grade")
+    else:
+        print("\ni am sorry! you are failed in this year")
 
 

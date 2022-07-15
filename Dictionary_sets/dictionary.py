@@ -45,6 +45,4 @@ favlan['wright']=b
 favlan['ronaldo']=c
 favlan['foden']=d
 
-
-
 print(favlan)
