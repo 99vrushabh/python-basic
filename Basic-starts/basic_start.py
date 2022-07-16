@@ -3,7 +3,7 @@ from winsound import PlaySound
 from xml.etree.ElementTree import Comment
 import os
 
-# hii
+
 
 #  for'for multi line comment
 ''' single line Comment
@@ -20,9 +20,9 @@ import os
 # print(os.listdir())
 
 # # variables
-# a="admin" #this is string 
-# b=345 #this is integer
-# c=45.7 #this is float
+a="admin" #this is string 
+b=345 #this is integer
+c=45.7 #this is float
 
 # '''variable is container to store a value'''
 # '''kewwords is reserved wors in python like: def'''
@@ -35,19 +35,19 @@ import os
 # boolines{true or false}
 # none
 
-# __a123='''hello "world"'''
-# b=1323 
-# c=2.2
+__a123='''hello "world"'''
+b=1323 
+c=2.2
 
-# print(__a123)
-# print(b)
-# print(c)
+print(__a123)
+print(b)
+print(c)
 
-# printing the type of variables
+# printing the diffrent type of variables
 
-# print(type(__a123))
-# print(type(b))
-# print(type(c))
+print(type(__a123))
+print(type(b))
+print(type(c))
 
 # opraters
 # arithmatic oprater => + - * /;
@@ -56,57 +56,57 @@ import os
 # logical oprator => and or not
 
 
-# a=2
-# b=6
-# # arithmatic oprater
-# print("this is value of 2+6=",a+b)
-# print("this is value of 2+6=",a-b)
-# print("this is value of 2+6=",a*b)
-# print("this is value of 2+6=",a/b)
+a=2
+b=6
+#  arithmatic oprater
+print("this is value of 2+6=",a+b)
+print("this is value of 2+6=",a-b)
+print("this is value of 2+6=",a*b)
+print("this is value of 2+6=",a/b)
 
 
 # assignment oprator
-# a=50
-# a/=2
-# # a*=2
-# # a-=2
-# print(a)
+a=50
+a/=2
+# a*=2
+# a-=2
+print(a)
 
 # comperission opretors
-# b=6<7
-# print(b)
-# b=7<=7
-# print(b)
-# b=8!=7
-# print(b)
+b=6<7
+print(b)
+b=7<=7
+print(b)
+b=8!=7
+print(b)
 
 # logical opretors
-# a=True
-# b=False
-# print("the value of  a and b is",a and b)
-# print("the value of  a or b is",a or b)
-# print("the value of  not  b is",not b)
+a=True
+b=False
+print("the value of  a and b is",a and b)
+print("the value of  a or b is",a or b)
+print("the value of  not  b is",not b)
 # type
 # for type of any variable
 # typecasting
 # for convert string to int. use typecasting
-# a="3434"
-# print(a)
+a="3434"
+print(a)
 # # conv. into int.
-# a=int(a)
+a=int(a)
 # # conv. into float
-# a=float(a)
-# print(a)
+a=float(a)
+print(a)
 
-# print(a+5)
+print(a+5)
 
 
-# a=21
-# b="23"
-# c=21
-# print(str(a))
-# print(int(b))
-# print(float(c))
+a=21
+b="23"
+c=21
+print(str(a))
+print(int(b))
+print(float(c))
 a = input("first number:")
 b = input("second number:")
 a=int(a)

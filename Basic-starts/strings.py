@@ -69,7 +69,7 @@ print(story.endswith("hello")) #-->print false
 print(story.count("world"))
 
 # 4--> for make first word capital=capitlize
-print(story.capitalize())
+print(story.capitalize())     
 
 #5--> for finding  some word=find
 print(story.find("hello"))

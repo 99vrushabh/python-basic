@@ -1,3 +1,8 @@
+# user define function
+from itertools import product
+from math import factorial
+
+
 def result(marks):
     p = ((marks[0]+marks[1]+marks[2]+marks[3]+marks[4])/5)
     return p
@@ -19,4 +24,28 @@ def greet(name):
 
 
 a = input("enter your name")
-b = greet(a)
+greet(a)
+# defult value function
+
+
+def greet(name='vrushabh'):
+    print("good day", name)
+
+
+greet()
+
+# recursion
+# fectorial numbers
+number = 6
+product = 1
+for i in range(number):
+    product = product*(i+1)
+print(product)
+
+# fectoril numbers using function
+def fectorial(n):
+    product = 1
+    for i in range(number):
+        product = product*(i+1)
+    return product
+print(factorial(4))
