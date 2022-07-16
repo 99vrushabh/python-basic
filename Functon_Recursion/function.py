@@ -49,3 +49,17 @@ def fectorial(n):
         product = product*(i+1)
     return product
 print(factorial(4))
+
+
+# defult value function
+def d_value(x,y=50):
+    print("x: ",x)
+    print("Y: ",y)
+
+d_value(10)
+
+def student(firstname, lastname): 
+     print(firstname, lastname)
+ 
+
+student("vrushabh","gohil")
