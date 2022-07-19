@@ -7,8 +7,7 @@ myDict = {
     "numbers" :[1,5,6],
     "other" : {"harry":"potter"}
 }
-print(myDict["fast"])
-print(myDict["mugenta"])
+print(myDict["fast"]
 # print(myDict["numbers"])
 myDict["numbers"]=1239
 print(myDict["numbers"])
