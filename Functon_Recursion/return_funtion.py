@@ -46,6 +46,9 @@
 # new 
 
 # first get a function and in that function run a loop
+from unicodedata import name
+
+
 def loopy(number):
     # for i in number:
     # import pdb
@@ -79,3 +82,18 @@ def func1(number):
         print("give more opp.")
 
 func1(int(input("enter your 1st odi match score")))
+
+def score_total(s1,s2,s3):
+    match=s1+s2+s3
+    return match
+name=input("enter your name")
+result=score_total(int(input("enter 1st odi's score")),int(input("enter 2nd odi's score")),int(input("enter 3rd odi's score"))) 
+# print("you are ",name)
+# print("you are achived ",result,"in the last odi series")
+
+if result >=250:
+    print("you are selected for next series")
+elif result >= 150:
+    print("desicion will take on your selection for the next series")
+elif result >= 50:
+    print("your selection has very low chances")
