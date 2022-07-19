@@ -1,8 +1,11 @@
+from unicodedata import name
+
+
 def abc(marks):
-    result = ((marks[0]+marks[1]+marks[2]+marks[3])/2)
+    result = (((marks[0]+marks[1]+marks[2]+marks[3])/200)*100)
     return result
 
-a=[int(input("enter 1st number")),int(input("enter 2nd number")),int(input("enter 3rd number")),int(input("enter 4th number"))]
+a=[50,45,70,60]
 form = abc(a)
 print(form,"%")
 if form >= 80:
@@ -12,8 +15,9 @@ elif form >=70:
 else:
     print("sorry! you are failed in this year \n Better luck next time ")
 
-def calculate (num1, num2=4):
-  res = num1 * num2
-  print(res)
+def peoples(firstname,lastname):
+    name=firstname + lastname
+    return name
 
-calculate(5, 6)
+lbw=peoples("hello ","world")
+print (lbw)
