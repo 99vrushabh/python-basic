@@ -8,7 +8,7 @@ import string
 player = ["kohli", "dhoni", "ronaldo", "werner"]
 
 for item in player:
-    print(item + "he is play very well")
+    print(item + "he is play very well ")
 
 # range fuction in for loop
 for i in range(1, 9):
@@ -27,7 +27,7 @@ else:
 # continue statment
 # this statment use to skip vakue
 for i in range(9):
-    if i == 5:
+    if i == 5: 
         continue
     print(i)
 else:

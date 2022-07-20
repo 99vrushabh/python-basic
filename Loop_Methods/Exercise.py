@@ -74,7 +74,6 @@ i=0
 for a in range(-10,0,1):
     print(a)
 
-
 # successfully and of loop
 for i in range(5):
     print(i)
@@ -96,8 +95,6 @@ for i in range(1,i+1):
 
 
 # revers number
-
-
 # odd number
 print("odd number")
 i=[10,20,30,40,50,60]
