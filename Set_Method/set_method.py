@@ -1,33 +1,43 @@
-def squareNumbers(n):
-    # Normal function
-    result = []
-    for i in n:
-        result.append(i*i)
-    return result
-def SquareNumbersGen(n):
-    for i in n:
-        yield (i*i)
-
-print(squareNumbers([1, 2, 3, 4, 5]))
-
-# The result will be a generator object
-numGen = SquareNumbersGen([1, 2, 3, 4, 5])
-print(numGen)
-
-print(f'next: {next(numGen)}')
-print(f'next: {next(numGen)}')
-print(f'netx: {next(numGen)}')
+s1={1,2,3,4,5,6}
+s2={4,5}
+s3={8,9}
 
 
-# It doesn't hold the entire result in memory, it yields, the
-# results one at a time
-for n in numGen:
-    # It continues from the last iteration
-    print(f'for: {n}')
+# for display all dict
+print("s1 is :",s1,"\ns2 is :",s2,"\ns3 is :",s3)
+# this is math method of intersection
+# it means in dict a and dict b have same elements
+d=(s1.intersection(s2))
+print("s1 intersectin of s2 is : ",d)
+
+# this is math method of union
+# it means in dict a and dict b have all the  elements in new dict
+d=(s1.union(s2))
+print("s1 Union s2 is : ",d)
+
+# update exist dict 
+s1.update([10,11])
+print ("updated dict s1 is",s1)                               
 
 
-# Generator comprehension, same as SquareNumbersGen function
-myGen = (n*n for n in [1, 2, 3, 4, 5])
+# remove some elements from dict 
+s1.remove(3)
+print("after element(3) remove , new dict s1 is",s1)
+
+# for diffrence betwen two dict
+s4=s1.difference(s2)
+print ("diffrence between s1 and s2",s4)
+print("diffrence between s1 and s2",s1.symmetric_difference(s2))
+
+s5=s1.intersection(s2).union(s3)
+print(s5)
+
+
+# math method like subset or superset
+s6=s2.issubset(s1)
+print(s6)
+s7=s1.issuperset(s2)
+print(s7)
 
 # It is possible to print a generator as a list, but you will loose performance
 # In a large set of data generators excel in time efficiency
