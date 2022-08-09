@@ -41,24 +41,11 @@ print(s6)
 # math method like subset or superset
 s7=s2.issubset(s1)
 print(s7)
-s8=s1.issuperset(s2)
+s8=s1.issuperset(s3)
 print(s8)
 
-# for get avg of two numbers
-a=int(input("enter a : "))
-b=int(input("enter b : "))
-c=(a+b)/2
+print(type(s3))
 
-print("a is :",a)
-print("b is :",b)
-print("c is :",c)
-
-def findItem(e, l):
-    for i, el in enumerate(l):
-        if el == e:
-            return [i, el]
-    
-    return findItem
 # It is possible to print a generator as a list, but you will loose performance
 # In a large set of data generators excel in time efficiency
 # print(list(myGen))
